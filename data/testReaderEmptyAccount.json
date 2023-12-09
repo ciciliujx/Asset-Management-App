@@ -1,0 +1,13 @@
+{
+  "user_name": "My account",
+  "accounts": [
+    {
+      "assets": [],
+      "status": "current"
+    },
+    {
+      "assets": [],
+      "status": "removed"
+    }
+  ]
+}

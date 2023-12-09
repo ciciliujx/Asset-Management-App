@@ -1,0 +1,49 @@
+{
+  "user_name": "My account",
+  "accounts": [
+    {
+      "assets": [
+        {
+          "features": {
+            "interestRate": 0.048,
+            "principal": 1000,
+            "withdrawList": [{
+              "date": "2023-10-22",
+              "amount": 1000
+            }],
+            "investDate": "2023-10-22",
+            "termToMaturity": 200
+          },
+          "name": "bond"
+        },
+        {
+          "features": {
+            "interestRate": 0.0688,
+            "principal": 3000,
+            "withdrawList": [],
+            "investDate": "2023-10-22",
+            "termToMaturity": 300
+          },
+          "name": "forward"
+        }
+      ],
+      "status": "current"
+    },
+    {
+      "assets": [{
+        "features": {
+          "interestRate": 0.0701,
+          "principal": 0,
+          "withdrawList": [{
+            "date": "2023-10-22",
+            "amount": 4000
+          }],
+          "investDate": "2023-10-22",
+          "termToMaturity": 500
+        },
+        "name": "future"
+      }],
+      "status": "removed"
+    }
+  ]
+}
